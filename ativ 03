@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+    short idade;      
+    int montante;        
+    long numeroConta;     
+    
+    printf("--- SISTEMA DE DEPÓSITO ---\n");
+
+    printf("Digite sua idade: ");
+    scanf("%d", &idade);  
+
+    printf("Digite o montante a depositar: ");
+    scanf("%d", &montante); 
+
+    printf("Digite o número da conta: ");
+    scanf("%d", &numeroConta);  
+
+    printf("\nDepósito realizado com sucesso!\n");
+    printf("Idade: %d\n", idade);
+    printf("Montante depositado: R$ %d\n", montante);
+    printf("Conta destino: %ld\n", numeroConta);
+
+    return 0;
+}
