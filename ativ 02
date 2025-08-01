@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int numero, quadrado, cubo;
+
+
+    printf("Numero\tQuadrado\tCubo\n");
+
+    // Loop de 0 a 10
+    for (numero = 0; numero <= 10; numero++) {
+        quadrado = numero * numero;
+        cubo = numero * numero * numero;
+
+        // Impressão com tabulações
+        printf("%d\t    %d\t    \t%d\n", numero, quadrado, cubo);
+    }
+
+    return 0;
+}
